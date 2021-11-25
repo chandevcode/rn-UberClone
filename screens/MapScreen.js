@@ -4,9 +4,9 @@ import React from "react";
 import { KeyboardAvoidingView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { Icon } from "react-native-elements/dist/icons/Icon";
 import tw from "twrnc";
-import Map from "../components.js/Map";
-import NavigateCard from "../components.js/NavigateCard";
-import RideOptionsCard from "../components.js/RideOptionsCard";
+import Map from "../components/Map";
+import NavigateCard from "../components/NavigateCard";
+import RideOptionsCard from "../components/RideOptionsCard";
 
 const MapScreen = () => {
   const Stack = createNativeStackNavigator();
